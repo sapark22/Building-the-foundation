@@ -18,6 +18,6 @@ public class Main{
             cnt++;
         }
         ave = total / (double) cnt;
-        System.out.printf("%1$d %2$s",total,ave);
+        System.out.printf("%1$d %2$.1f",total,ave);
     }
 }
